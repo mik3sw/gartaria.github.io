@@ -1,0 +1,73 @@
+body {
+  color: rgb(0, 0, 0);
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+.title {
+   text-align: center;
+    margin-top: 50px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #a4a3a5, #ffffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .subtitle{
+     text-align: center;
+     margin-top: 30px;
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+     color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+   }
+
+   .text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 50px;
+    margin left: 20px;
+  }
+
+   .img{
+    object-position: left;
+    text-align: center;
+    text-align: justify;
+    margin-top: 30px;
+    max-width: 400px;
+    height: auto;
+    float:right;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .text2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    text-align:inherit;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 500px;
+    margin left: 20px;
+  }
+ 
