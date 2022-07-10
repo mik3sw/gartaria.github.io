@@ -49,16 +49,21 @@ body {
   }
 
    .img{
+    position: relative;
     object-position: center;
-    text-align: center;
-    text-align: justify;
+    align-items: center;
     margin-top: 30px;
     max-width: 400px;
     height: auto;
-    float:center;
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+  }
+  .img2{
+    margin-left: 500px;
+    max-width: 500px;
+    height: auto;
+    margin-top:30px
   }
 
   .text2{
