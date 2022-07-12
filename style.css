@@ -22,6 +22,19 @@ body {
     -webkit-background-clip: text;
   }
 
+  .title2 {
+    text-align: left;
+     margin-top: 50px;
+     margin-left: 20px;
+     font-size: 70px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     background-image: linear-gradient(to left, #a4a3a5, #ffffff);
+     color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+   }
+
   .subtitle{
      text-align: center;
      margin-top: 30px;
@@ -35,6 +48,22 @@ body {
      background-clip: text;
      -webkit-background-clip: text;
    }
+
+
+   .subtitle2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 50;
+    line-height: 150%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 
    .text{
     font-size: 25px;
@@ -50,6 +79,8 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
   }
+
+
 
    .img{
     position: relative;
@@ -97,6 +128,34 @@ body {
     margin left: 20px;
   }
  
+
+  .text4{
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    background-image: linear-gradient(to left, #ffffff, #ffffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 10px;
+    margin left: 20px;
+  }
+
+  .text5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 50;
+    line-height: 150%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
   *{
     margin: 0;
     padding: 0;
@@ -314,4 +373,15 @@ margin-bottom: 20px;
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+  }
+
+  .hrnew1 {
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 0;
+    border-top: 1px solid #ccc;}
   }
