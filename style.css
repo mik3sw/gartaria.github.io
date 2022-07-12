@@ -398,7 +398,7 @@ margin-bottom: 20px;
     margin-top: 60px;
     margin-bottom: 60px;
     border: 0;
-    border-top: 1px solid #ccc;}
+    border-top: 1px solid #ccc;
   }
 
 /*dont touch*/
@@ -406,5 +406,31 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 1000px) {
 
-  body{
+  .img2{
+    max-width: 100%;
+    height: auto;
   }
+
+  .title{
+    font-size: 10vw;
+     }
+
+  .subtitle{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+  .subtitle2{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+  .text{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+  .text5{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
