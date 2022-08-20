@@ -1,128 +1,92 @@
 body {
-  color: rgb(0, 0, 0);
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: background-color 0.5s, color 0.5s;
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-
+  background-color: rgb(255, 255, 255);
 
 }
-.title {
-   text-align: center;
-    margin-top: 50px;
-    font-size: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #a4a3a5, #ffffff);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
 
-  .title2 {
-    text-align: left;
-     margin-top: 50px;
-     margin-left: 40px;
-     font-size: 70px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: 600;
-     background-image: linear-gradient(to left, #a4a3a5, #ffffff);
-     color: transparent;
-     background-clip: text;
-     -webkit-background-clip: text;
-   }
-
-  .subtitle{
+  .title{
      text-align: center;
-     margin-top: 30px;
+     margin-top: 0px;
      margin-left: 50px;
      margin-right: 50px;
+     margin-top: 50px;
      font-size: 30px;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: century, sans-serif
      font-weight: 100;
-     background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+     background-image: linear-gradient(to left, #000000, #000000);
      color: transparent;
      background-clip: text;
      -webkit-background-clip: text;
    }
 
-
-   .subtitle2{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-weight: 50;
-    line-height: 150%;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
-
-  .subtitle3{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-weight: 50;
-    line-height: 150%;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
-
    .text{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-family: century
     text-align: center;
     font-weight: 50;
-    line-height: 150%;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    line-height: 100%;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-image: linear-gradient(to left, #000000, #000000);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
   }
 
 
+  @media (max-width:500px) {
+    .text{
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    }
 
-   .img{
-    position: relative;
-    object-position: center;
-    align-items: center;
-    margin-top: 30px;
-    max-width: 400px;
-    height: auto;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-  }
-  .img2{
-    display: block;
-    margin:0 auto;
-    height: auto;
-    margin-top:30px
+    @media (max-width:1000px) {
+      .text{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      }
+  
+
+
+  .intxtext{
+    font-size: 25px;
+    text-align: justify;
+    font-family: century
+    font-weight: 50;
+    line-height: 100%;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: linear-gradient(to left, #000000, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 
     
-  
   }
+
+  @media (max-width:500px) {
+    .intxtext{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    }
+
+    @media (max-width:1000px) {
+      .intxtext{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      }
 
   .text2{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: century
     font-weight: 50;
-    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    background-image: linear-gradient(to left, #000000, #000000);
     text-align:inherit;
     color: transparent;
     background-clip: text;
@@ -137,7 +101,7 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 10;
-    background-image: linear-gradient(to left, #ffffff, #ffffff);
+    background-color: #000000;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -146,29 +110,16 @@ body {
   }
  
 
-  .text4{
-    font-size: 16px;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 10;
-    background-image: linear-gradient(to left, #ffffff, #ffffff);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    margin-top: 10px;
-    margin left: 20px;
-  }
-
   .text5{
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: century 
     text-align: center;
     font-weight: 50;
     line-height: 150%;
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    background-image: linear-gradient(to left, #a5a3a3, #ffffff);
+    background-image: linear-gradient(to left, #000000, #000000);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -178,10 +129,28 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.datihome{
+  font-family: century;
+  list-style-type: none;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+
+
+}
+
+.img2{
+  display: block;
+  margin:0 auto;
+  height: auto;
+  margin-top:30px
+}
+
+
 /*footer*/
 body{
-    background: #000000;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff00;
+    font-family: century-gothic, sans-serif;
 }
 
 footer{
@@ -189,13 +158,13 @@ footer{
     height: auto !important;
     height: 100%;
     margin: 0 auto -100px;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     height: auto;
     height: 100%;
     margin-bottom: 40px;
     width: auto;
     padding-top: 40px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .footer-content{
@@ -212,17 +181,17 @@ footer{
 
 
 .footer-content h3{
-  font-size: 2.1rem;
+  font-size: 30px;
   font-weight: 500;
   text-transform: capitalize;
-  line-height: 3rem;
+  line-height: 22px;
 }
 .footer-content p{
   max-width: 500px;
   margin: 10px auto;
-  line-height: 28px;
+  line-height: 18px;
   font-size: 14px;
-  color: #cacdd2;
+  color: #000000;
 }
 
 .footer-menu{
@@ -239,20 +208,20 @@ display: block;
 
 
 .footer-menu ul li a{
-  color: #cfd2d6;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 1.3px solid white;
+  border: 1.3px solid rgb(0, 0, 0);
   padding: 6px 15px;
   border-radius: 50px;
   text-decoration: none;
 }
 .footer-menu ul li a:hover{
-  color: #fffb00;
+  color: #f7931a;
 }
 
 .footer-bottom{
-  background: #000;
+  background: rgb(255, 255, 255);
   margin-bottom: 20px
   max-width: auto
   padding: 20px;
@@ -266,7 +235,7 @@ display: block;
   margin-bottom: 20px;
 }
 .footer-bottom p a{
-color:#fffb00;
+color:#f7931a;
 font-size: 16px;
 text-decoration: none;
 margin-bottom: 20px;
@@ -300,13 +269,13 @@ margin-bottom: 20px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    font-family: Helvetica
+    font-family: century
   }
   
   .nav {
     height: 50px;
     width: 100%;
-    background-color: #00000000;
+    background-color: #ffffff;
     position: relative;
   }
   
@@ -317,9 +286,10 @@ margin-bottom: 20px;
   .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 10px 10px 10px 10px;
   }
+
   
   .nav > .nav-btn {
     display: none;
@@ -335,11 +305,11 @@ margin-bottom: 20px;
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
+    color: #000000;
   }
   
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+  .nav-links > a:hover {
+    color: #f7931a;
   }
   
   .nav > #nav-check {
@@ -360,7 +330,7 @@ margin-bottom: 20px;
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgb(255, 255, 255);
     }
     .nav > .nav-btn > label > span {
       display: block;
@@ -372,7 +342,7 @@ margin-bottom: 20px;
       position: absolute;
       display: block;
       width: 100%;
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -413,11 +383,8 @@ margin-bottom: 20px;
     height: auto;
   }
 
-  .title{
-    font-size: 10vw;
-     }
 
-  .subtitle{
+  .title{
     margin-left: 20px;
     margin-right: 20px;
     }
@@ -427,10 +394,7 @@ margin-bottom: 20px;
     margin-right: 20px;
     }
 
-  .text{
-    margin-left: 20px;
-    margin-right: 20px;
-    }
+
   .text5{
     margin-left: 20px;
     margin-right: 20px;
