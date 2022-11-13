@@ -134,30 +134,30 @@ body {
   }
   .subtitle{
     font-size: 35px;
-    -webkit-text-stroke: 0.05px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
   .text{
     font-size: 28px;
     margin-left: 25px;
     margin-right: 25px;
-    -webkit-text-stroke: 0.05px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
   .text2{
     font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    -webkit-text-stroke: 0.05px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
   .text2c{
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    -webkit-text-stroke: 0.05px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
   .text3{
     font-size: 16px;
     margin-right: 5px;
-    -webkit-text-stroke: 0.05px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
 
   .img2{
