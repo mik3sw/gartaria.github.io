@@ -133,17 +133,17 @@ body {
     font-size: 40px;
   }
   .subtitle{
-    font-size: 35px;
+    font-size: 38px;
     -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
   .text{
-    font-size: 28px;
+    font-size: 34px;
     margin-left: 25px;
     margin-right: 25px;
     -webkit-text-stroke: 0.03px rgb(0, 0, 0);
   }
   .text2{
-    font-size: 30px;
+    font-size: 34px;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-text-stroke: 0.03px rgb(0, 0, 0);
