@@ -1,0 +1,142 @@
+
+@media only screen and (max-width:1000px){
+    .title{
+        padding-top: 40%;
+      font-size: 5vw;
+    }
+
+    .bookbox{
+        display: block;
+    }
+    
+    .booktitle{
+        text-align: center;
+        font-size: 8vw;
+    }
+    .summary{
+        text-align: center;
+        font-size: 4vw;
+    }
+    .buybtn{
+        margin-top: 5%;
+        width: 100%;
+        font-size: 6vw;
+    }
+    .mytitle{
+        margin-top: 40%;
+        font-size: 8vw;
+    }
+    .subtitle{
+      font-size: 38px;
+      -webkit-text-stroke: 0.03px rgb(0, 0, 0);
+    }
+    .text{
+      font-size: 34px;
+      margin-left: 25px;
+      margin-right: 25px;
+      -webkit-text-stroke: 0.03px rgb(0, 0, 0);
+    }
+    .text2{
+      font-size: 34px;
+      margin-left: 10px;
+      margin-right: 10px;
+      -webkit-text-stroke: 0.03px rgb(0, 0, 0);
+    }
+    .text2c{
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      -webkit-text-stroke: 0.03px rgb(0, 0, 0);
+    }
+    .text3{
+      font-size: 16px;
+      margin-right: 5px;
+      -webkit-text-stroke: 0.03px rgb(0, 0, 0);
+    }
+  
+    .img2{
+      max-width: 100%;
+      height: auto;
+    }
+    .footer .content{
+        max-width: 100%;
+    }
+    .contact-item{
+        font-size: 10vw;
+        margin: 6%;
+    }
+  }
+
+  @media only screen and (max-width:1000px) {
+    .nav > .nav-btn {
+        display: inline;
+        float: right;
+        font-size: 5vw;
+      
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+
+
+  @media only screen and (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+  }
+  @media only screen and (max-width:950px){
+    footer .content .box{
+      width: 50%;
+    }
+    .content .right{
+      margin-top: 40px;
+    }
+  }
+  @media only screen and (max-width:560px){
+    footer{
+      position: relative;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 10px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+  }
