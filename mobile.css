@@ -1,7 +1,7 @@
 
 @media only screen and (max-width:1000px){
     .title{
-        padding-top: 40%;
+        padding-top: 10%;
       font-size: 5vw;
     }
 
@@ -72,7 +72,7 @@
       position:sticky;
     }
     .nav > .nav-btn {
-        display: inline;
+        display: none;
         float: right;
         font-size: 5vw;
       
@@ -97,8 +97,8 @@
       display: block;
       width: 100%;
       background-color: rgb(0, 0, 0);
-      height: 0px;
-      transition: all 0.3s ease-in;
+      height: auto;
+      transition: all 0.5s ease-in;
       overflow-y: hidden;
       top: 50px;
       left: 0px;
@@ -111,7 +111,7 @@
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
+      height: auto;
       overflow-y: auto;
     }
   }
